@@ -1,0 +1,8 @@
+#Instrucciones para construir la imagen
+docker build -t dockerpractica1 .
+#Instrucciones para ejecutar un nuevo contenedor con docker run 
+docker run -d -p 2222:22 5901:5901  dockerpractica1
+#Instrucción para conectarse con un cliente a VNC
+docker insepct -f <nombre del contenedor> y buscas su ip 
+#URL Publica de dockerhub
+https://hub.docker.com/repository/docker/z3roen1gma/ubuntuvnc5/general
